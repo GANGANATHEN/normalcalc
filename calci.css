@@ -11,8 +11,8 @@ body
 
 .container
 {
-    width: 45%;
-    height: 45vh;
+    width: 70%;
+    /* height: 45vh; */
     padding: 10px;
     border-radius: 8px;
     box-shadow: 12px 12px 12px #cbced1,
@@ -21,14 +21,14 @@ body
 
 .display #screen
 {
-    width: 97%;
+    width: 95%;
     height: 70%;
     font-size: 35px;
     outline: none;
     border: none;
     text-align:right;
     padding-right: .5em;
-    background: #ecf0f3;
+    background: #eff1f3;
     border-radius: 6px;
     box-shadow: inset 8px 8px 8px #cbced1,
                 inset -8px -8px 8px #ffffff;
@@ -42,10 +42,14 @@ body
     align-items: center;
     flex-direction:column;
 }
+.row button{
+    width: 100%;
+}
 
 .btns .row button
 {
-    width: 80px;
+    padding: auto;
+    width: 120px;
     height: 30px;
     font-size: 16px;
     border:none;
@@ -99,3 +103,59 @@ body
     box-shadow: inset 5px 5px 8px #e60073,
                 inset -5px -5px 8px #ff3399;
 }
+
+/* meadia Quary start */
+
+@media screen and (max-width: 1200px) {
+    .btns .row button{
+        padding: auto;
+        width: 100px;
+        height: 30px; 
+    }
+}
+@media screen and (max-width: 990px) {
+    .btns .row button{
+        padding: auto;
+        width: 90px;
+        height: 30px; 
+    }
+}
+@media screen and (max-width: 930px) {
+    .btns .row button{
+        padding: auto;
+        width: 60px;
+        height: 30px; 
+    }
+}
+@media screen and (max-width: 650px) {
+    .btns .row button{
+        padding: auto;
+        width: 50px;
+        height: 30px; 
+    }
+}
+@media screen and (max-width: 560px) {
+    .btns .row button{
+        padding: auto;
+        width: 40px;
+        height: 30px; 
+    }
+}
+@media screen and (max-width: 475px) {
+    .btns .row button{
+        padding: auto;
+        width: 30px;
+        height: 30px; 
+    }
+}
+@media screen and (max-width: 390px) {
+    .btns .row button{
+        padding: auto;
+        width: 25px;
+        height: 30px;
+        font-size: 12px;
+        margin: 2px;
+    }
+}
+
+/* meadia Quary end */
