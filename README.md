@@ -1,3 +1,3 @@
 # normalcalc
 
-link-->https://normalcalc.netlify.app/
+link-->https://ganganathan-calculator.netlify.app
